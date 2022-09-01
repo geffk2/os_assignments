@@ -1,0 +1,20 @@
+    1  clear
+    2  l
+    3  cd snap
+    4  l
+    5  cd ..
+    6  l
+    7  cd ..
+    8  l
+    9  cd root
+   10  l
+   11  rm -rf file
+   12  l
+   13  apt-get install neofetch
+   14  apt-get update
+   15  apt-get install neofetch
+   16  neofetch
+   17  clear
+   18  neofetch
+   19  cd /usr/bin
+   20  l
