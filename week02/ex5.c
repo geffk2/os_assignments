@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int tribonacci(int n) {
+unsigned long long int tribonacci(int n) {
   int t0 = 0, t1 = 1, t2 = 1;
   switch(n) {
     case 0:
@@ -21,6 +21,6 @@ int tribonacci(int n) {
 }
 
 int main(int argc, char* argv[]) {
-  printf("T4 = %d\nT36 = %d\n", tribonacci(4), tribonacci(36));
+  printf("T4 = %llu\nT36 = %llu\n", tribonacci(4), tribonacci(36));
   return 0;
 }

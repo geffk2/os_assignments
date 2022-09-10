@@ -22,7 +22,7 @@ void countAll(char* str) {
 
 int main(int argc, char* argv[]) {
   char str[256];
-  scanf("%s", str);
+  scanf("%[^\n]", str);
   countAll(str);
   return 0;
 }
