@@ -17,7 +17,6 @@ int main(int argc, char* argv[])
   }
 
   // publisher
-  mkfifo("/tmp/ex2", 0777);
 
   printf("Publisher Opening\n");
   int fd = open("/tmp/ex2", O_WRONLY);
@@ -39,7 +38,6 @@ int main(int argc, char* argv[])
     buf = NULL;
 
     if(fork() == 0) {
-      sleep(1);
       for(int i = 0; i < n; i++) {
         write(fd, message, 1024);
       }

@@ -1,0 +1,1 @@
+On my machine, there are 8 cores, and there is noticeable increase up until 10 processses(there's more and more cores being used), but barely any difference between 10 and 100 processes. I think that is because there are simply no more cpu cores to utilize and for any amount of processes above 8(in my case), the execution time will be roughly the same.

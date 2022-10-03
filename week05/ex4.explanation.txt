@@ -1,0 +1,2 @@
+The results here seem to repeat ex3. For the last runs I can see all cores' load spike for a moment. 
+Increase beyond 8 threads does not seem to provide a meaningful rise in performance.
