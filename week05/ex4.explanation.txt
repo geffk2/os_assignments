@@ -1,2 +1,4 @@
-The results here seem to repeat ex3. For the last runs I can see all cores' load spike for a moment. 
-Increase beyond 8 threads does not seem to provide a meaningful rise in performance.
+The results here seem worse than in ex3 across the board.
+We can notice that a lot more time is spend in kernel mode than in ex3.
+I think that is because threads sleep a lot while waiting for the next number:
+Checking a given number is fast, but waiting for 100 other processes to lock-unlock a mutex is much slower.
