@@ -1,6 +1,7 @@
 gcc ex2.c -lm -o ex2
 ./ex2 <<EOF
 6
+3
 2
 3
 0
