@@ -1,0 +1,4 @@
+The biggest address we may get in an 8KB page is 8191 or "1111111111111" in binary. So 13 bits are necessary to represent the offset.
+It leaves us with 3 bits for page number, or 8 pages in total. 
+
+So, for a page table we will need 8 entries.

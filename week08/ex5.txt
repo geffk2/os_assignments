@@ -1,0 +1,6 @@
+Physical address - address, pointing to a specific place in the physical memory(literal RAM stick).
+You might even say it corresponds to a literal place on the chip(maybe? might be too big of a stretch).
+
+Virtual address is an abstraction, it does not necessarily point to a place in physical memory.
+The virtual page it points to might be swapped out into the hard drive and not be present in main memory.
+It is a clever way for the programmers to not bother if some data was swapped out and use the same(virtual address) regardless.
