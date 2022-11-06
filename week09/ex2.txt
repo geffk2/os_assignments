@@ -1,0 +1,3 @@
+To obtain a higher hit/miss ratio we may simply access the same page over and over. I.E if we access the same page 100 times, our ratio would be 99.0(for any page frame greater than 0)
+
+For a lower hit/miss ratio we may not access the same page twice, this way we get 0 hits ¯\_(ツ)_/¯ 
