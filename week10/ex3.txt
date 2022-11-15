@@ -1,0 +1,12 @@
+1. chmod -x _ex3.txt 
+-> no output, nothing changed(no execute permissions by default)
+
+2. chmod uo=rwx _ex3.txt
+-> no output, wx permissions appeared for others, x - for user
+
+3. chmod u=g _ex3.txt
+-> no output, owner now has only r, same as group
+
+660 - read/write for owner and group, nothing for others 
+775 - rwx for user and group, rx for others 
+777 - rwx for everyone
